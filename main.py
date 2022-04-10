@@ -129,3 +129,13 @@ print(merged)
 
 # 16
 if "r" in ["r", "g", "b"]: print("check")
+
+# 17
+for i, j in enumerate(["a","b","c"]):
+    print(f"{i} - {j}")
+
+# 18
+a = ["aa", "bb", "cc"]
+b = ["dd", "ee", "ff"]
+for i, j in zip(a,b):
+    print(f"{i} > {j}")
